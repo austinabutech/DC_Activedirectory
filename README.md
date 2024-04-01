@@ -18,19 +18,21 @@ Setup a basic home lab comprise of active directory and PowerShell script to cre
 
 ![Rename Server DC(Domain controller)](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/25f9aca5-f127-46cb-b8f4-c9e6fc8d6e60)
 
+<b>config1 INTERNAL NIC
 
+IP address assigned: 172.16.0.1, mask 255.255.255.0 not assigning any default gateway since the domain controller is going to serve as the default gateway.Server will use itself as DNS since active directory will be installed, thus: a loop back address will be assigned for DNS: 127.0.0.1</b>
 ![Configuring Internal NIC](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/ac7b983b-fd29-4638-b67d-cbb90e52ca9c)
 
-
+<b>Install active directory</b>
 ![Install active directory service on server](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/6e71081a-52fd-4a71-a872-a47f46504134)
 
-
+<b>Install active directory</b>
 ![Configuring Active Directory](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/663de4d1-c6d0-42e6-8334-d00c88ca60f8)
 
-
+<b>Create New OU(Organizational Unit)</b>
 ![Create new OU(organizational unit)](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/d621672f-70b3-4437-8495-9c32a811d4d1)
 
-
+<b>Create new user and assign administrative priviledge</b>
 ![Created new user and made it admin](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/6bf7161b-1a9b-439e-8dbd-9ff1b4b19eec)
 
 <h2>Install RAS(Remote Access Server)</h2>
@@ -67,6 +69,13 @@ Setup a basic home lab comprise of active directory and PowerShell script to cre
 ![image](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/da2e1633-bd96-4a3c-999c-8efe0f2a80d5)
 
 
+<b>Client1 connected to your active directory</b>
+![image](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/4388138d-e7f9-47af-8fae-2eb7cb054daf)
 
+<b>Add Client1 o austindomain.com </b>
 
+![image](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/92566626-fdd8-4a40-8b44-d2c14d5681a1)
 
+<b> Address has been leased to CLIENT1</B>
+
+![image](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/03c394ee-ca14-4d61-baaf-8ee87e6dee2c)
