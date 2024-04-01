@@ -32,3 +32,41 @@ Setup a basic home lab comprise of active directory and PowerShell script to cre
 
 
 ![Created new user and made it admin](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/6bf7161b-1a9b-439e-8dbd-9ff1b4b19eec)
+
+<h2>Install RAS(Remote Access Server)</h2>
+<b>Enable users to connect remotely to a network or computer over a network connection, enabling access to resources as if they were physically connected to the network.</b>
+
+
+![image](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/33eff61c-af6c-48a3-9d79-6329c2165cae)
+
+<b>Routing and Remote access enabled.</b>
+
+
+![image](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/eeafe6ea-2ee0-47e7-807c-ee20af9c1eb3)
+
+<b>Setup DHCP.</b>
+
+![image](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/ee162f47-355d-4773-a329-fc80b44a7fa9)
+
+<b>Address scope for DHCP</b>
+![image](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/40ef8308-e21e-44ef-948e-3f21eed067dc)
+
+<b> Powershell script to create users</b
+![image](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/6a7bc39f-b626-47fb-8146-15a073835dd8)
+
+
+
+![image](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/6f93acbf-55b0-4f22-aa21-118abb15f70b)
+
+<b>Client1 windows 10 iso setup on VM</b>
+
+![image](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/98016160-f5bd-4ff4-8cec-e6fe1be29167)
+
+<b>Rename windows 10 CLIENT1 and add to your active directory</b>
+
+![image](https://github.com/austinabutech/DC_Activedirectory/assets/163788570/da2e1633-bd96-4a3c-999c-8efe0f2a80d5)
+
+
+
+
+
